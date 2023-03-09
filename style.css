@@ -1,0 +1,101 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+body{
+    background-color: chocolate;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; 
+}
+
+.container{
+    width: 600px;
+    background-color: aliceblue;
+    border-radius: 8px ;
+    padding: 20px;
+}
+
+.box{
+    border-radius: 4px;
+    border: 2px solid gray ;
+}
+
+.controls, .controls li, .icons, .icons i {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.controls .icons i{
+    width: 40px;
+    color: #555555;
+    font-size: 16px;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.controls .icons{
+    width: 36%;
+}
+
+ul{
+    list-style: none;
+    padding: 12px;
+
+}
+
+.text-controls textarea{
+    height: 200px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background-color: none;
+    padding : 16px;
+    resize: none;
+    
+}
+
+.text-controls .to-text{
+    border-left: 2px solid gray;
+    border-radius: 0;
+}
+
+
+
+.box .text-controls{
+    display: flex;
+    border-top: 2px solid gray
+}
+
+button{
+    background-color: #555555;
+    border: 2px solid gray;
+    border: none;
+    color: #fff;
+    padding: 12px 24px;
+    width: 100%;
+    margin-top: 12px;
+    font-size: 16px;
+    transition-duration: .4s;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #fff;
+    color: black;
+    border: 2px solid gray;
+}
+
+.exchange{
+    color: #555555;
+    cursor: pointer;
+}
